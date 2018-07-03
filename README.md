@@ -63,7 +63,7 @@ Tilting (1 & 2) are controlled by the accelerometer, which detects in what direc
 ## Final Product Demo
 This video shows the prototype being used play the first round of Doom.
 
-[HW3 Demo: Hand of Doom](INSERT LINK HERE)
+[HW3 Demo: Hand of Doom](https://youtu.be/ycHC5Ju518U)
 
 ## Reflection
 This was the first time that either of us had worked with fabric, so it was difficult in figuring out how to embed electronics (especially the protoboard and the Feather) into the glove. Neither of us knew how to sow, so we improvised and instead tied it with wire and depended on the outer glove to hold everything in place-- since the components were thick (especially the Feather), this ended up working out for us. The electronics were relatively easy since the sensors were well-documented and it was a matter of observing what our inputs were, turning it into useful data, and mapping it to the correct keys. The accelerometer was the trickiest; we utilized the roll and pitch characterizations to create useful data, but there were tradeoffs between sensitivity (detecting a correct movement) and specificity (making sure slight tremors weren't registered as a movement), so that was difficult for us.
